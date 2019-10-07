@@ -6,7 +6,9 @@
         {% block stylesheets %}{% endblock %}
     </head>
     <body>
-        {% block body %}{% endblock %}
+        {% block body %}
+        {{ locale }}
+        {% endblock %}
         {% block javascripts %}{% endblock %}
     </body>
 </html>
